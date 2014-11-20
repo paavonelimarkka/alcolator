@@ -20,3 +20,10 @@ input {
 	margin: 5px auto;
 	display: block;
 }
+
+.button {
+	padding: 10px;
+	margin: 5px;
+	color: white;
+	background-color: #CCC;
+}
