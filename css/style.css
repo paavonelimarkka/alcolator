@@ -27,15 +27,15 @@ input {
 	outline: none;
 	vertical-align: center;
 	color: white;
-	background-color: $vaalean-turkoosi;
+	background-color: gray;
 	margin-top: 26px;
 	height: 46px;
 	@include border-top-radius(5px);
 	@include border-right-radius(5px);
 	@include border-bottom-radius(5px);
 	@include border-left-radius(5px);
-	-webkit-box-shadow: 2px 2px 0 0 $tumman-turkoosi;
-	box-shadow: 2px 2px 0 0  $tumman-turkoosi;
+	-webkit-box-shadow: 2px 2px 0 0 black;
+	box-shadow: 2px 2px 0 0  black;
 
 	&:active {
 		outline: none;
@@ -46,14 +46,6 @@ input {
 	}
 
 	&:hover {
-		background-color: $tumman-turkoosi;
-	}
-}
-.orange {
-	background-color: $purple-light;
-	-webkit-box-shadow: 2px 2px 0 0 $purple-dark;
-	box-shadow: 2px 2px 0 0  $purple-dark;
-	&:hover {
-		background-color: $purple-dark;
+		background-color: black;
 	}
 }
