@@ -22,9 +22,38 @@ input {
 }
 
 .button {
-	padding: 5px;
+	padding: 8px 20px;
 	margin: 5px;
-	margin-top: 20px;
+	outline: none;
+	vertical-align: center;
 	color: white;
-	background-color: #CCC;
+	background-color: $vaalean-turkoosi;
+	margin-top: 26px;
+	height: 46px;
+	@include border-top-radius(5px);
+	@include border-right-radius(5px);
+	@include border-bottom-radius(5px);
+	@include border-left-radius(5px);
+	-webkit-box-shadow: 2px 2px 0 0 $tumman-turkoosi;
+	box-shadow: 2px 2px 0 0  $tumman-turkoosi;
+
+	&:active {
+		outline: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		@include transform(translateY(2px));
+		@include transform(translateX(2px));
+	}
+
+	&:hover {
+		background-color: $tumman-turkoosi;
+	}
+}
+.orange {
+	background-color: $purple-light;
+	-webkit-box-shadow: 2px 2px 0 0 $purple-dark;
+	box-shadow: 2px 2px 0 0  $purple-dark;
+	&:hover {
+		background-color: $purple-dark;
+	}
 }
