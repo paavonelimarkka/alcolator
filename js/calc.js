@@ -5,7 +5,7 @@ $(document).ready(function() {
 		var cap = parseInt($("#cap").val());
 		var price = parseInt($("#price").val());
 		// console.log(alc+cap+price);
-		$("#result").val(cap*(alc/100)/price);
+		$("#result").val((cap*(alc/100)/price).toFixed(2));
 		//console.log( cap*(alc/100)/price );
 	});
 
