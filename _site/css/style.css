@@ -3,8 +3,10 @@ body {
 }
 
 h1 {
+	font-family: "Lobster Two", sans-serif;
+	font-size: 42px;
 	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-bottom: 16px;
 }
 
 .wrapper {
@@ -15,25 +17,26 @@ h1 {
 	margin: 0 auto;
 	text-align: center;
 }
-
+label {
+	font-size: 14px;
+	display: block;
+	margin-right: 10px;
+}
 input {
 	margin: 5px auto;
+	margin-bottom: 15px;
 	display: block;
 }
 
-.button {
-	padding: 8px 20px;
-	margin: 5px;
+button {
+	padding: 5px 10px;
 	outline: none;
 	vertical-align: center;
 	color: white;
 	background-color: gray;
-	margin-top: 26px;
-	height: 46px;
-	@include border-top-radius(5px);
-	@include border-right-radius(5px);
-	@include border-bottom-radius(5px);
-	@include border-left-radius(5px);
+	margin-top: 10px;
+	margin-bottom: 26px;
+
 	-webkit-box-shadow: 2px 2px 0 0 black;
 	box-shadow: 2px 2px 0 0  black;
 

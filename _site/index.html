@@ -9,6 +9,7 @@
     <meta name="description" content="Alcolator">
     <meta name="paavo nelimarkka" content="alcolator">
   	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -18,13 +19,17 @@
 		<header class="wrapper">
 
 			<section class="center">
+
 				<h1>Alcolator.</h1>
-				<input type="number" name="alcohol" id="alc" placeholder="Percentage (%)" autofocus="" required="">
-				<input type="number" name="capacity" id="cap" placeholder="Capacity (cl)" required="">
-				<input type="number" name="price" id="price" placeholder="Price(€)" required="">
-				<input type="number" name="result" id="result" value="">
-				<a href="#" id="count" class="button">Count</a>
-				<a href="#" class="button">Clear</a>
+
+				<label>Alcohol (%)</label><input type="number" name="alcohol" id="alc" placeholder="..." autofocus="" required="">
+				<label>Quantity (cl)</label><input type="number" name="capacity" id="cap" placeholder="..." required="">
+				<label>Price (€)</label><input type="number" name="price" id="price" placeholder="..." required="">
+				
+				<button id="count" class="button">Count</button>
+
+				<label>Centiliters per euro:</label><input type="number" name="result" id="result" placeholder="" value="">
+
 			</section>
 
 		</header>
